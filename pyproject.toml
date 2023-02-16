@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "icr-backend"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "icr_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asgiref = "^3.5.2"
+Django = "^3.2.12"
+pytz = "^2022.6"
+sqlparse = "^0.4.3"
+django-crispy-forms = "^1.14.0"
+django-modal-forms = "^2.0"
+django-widget-tweaks = "^1.4.12"
+django-embed-video = "^1.4.8"
+django-addanother = "^2.2.2"
+Markdown = "^3.4.1"
+PyYAML = "^5.4.1"
+python-dotenv = "^0.21.0"
+beautifulsoup4 = "4.11.1"
+gunicorn = "^20.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
